@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protos;
+
+import "protos/common.proto";
+
+message Something {
+  Point where = 1;
+  string what = 2;
+}
